@@ -2,7 +2,7 @@ name: Deployment
 run-name: Deploy 🚀
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Deployment:
     runs-on: ubuntu-latest
     steps:
-      - run: run npm build
+      - run: npm run build
