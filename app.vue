@@ -3,4 +3,6 @@
     <NuxtPage />
   </NuxtLayout>
 </template>
-<script setup></script>
+<script setup>
+import "@/assets/styles/styles.scss";
+</script>
