@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <h1>Gift it to me</h1>
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
+<script setup></script>
