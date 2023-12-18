@@ -1,8 +1,0 @@
-name: Deployment
-run-name: Deploy 🚀
-on: [push]
-jobs:
-  Deployment:
-    runs-on: ubuntu-latest
-    steps:
-      - run: npm run build
